@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=DM+Sans:opsz,wght@9..40,300&family=Hind+Madurai:wght@300&family=Tilt+Neon&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    top: 0;
+    padding: 10px;
+    height: 5vh;
+    width: 100vw;
+    background-color: #635C51;
+    position: fixed;
+}
+.logo img{
+    border: 2px solid rgb(53, 49, 49);
+    margin-top: -.8vh;
+    border-radius: 360px;
+    height: 45px;
+    margin-left: 10vh;
+}
+
+.navbar #links{
+    display: inline;
+}
+.navbar #links a{
+    font-family:'Hind Madurai', sans-serif;
+    background-color: #7D7461;
+    border-radius: 5px;
+    padding: 1vh;
+    margin-right: 2vh;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+.navbar #links #Gallery{
+    margin-right: 10vh;
+}
+.banner{
+    padding: 1.5vw;
+    background-color: #cec6a9;
+    height: 93.6vh;
+    width: 97vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    font-family: 'Hind Madurai', sans-serif;
+    color: #5A5349;
+    font-size: 4.3em;
+    margin-top: 3em;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.banner h1 span{
+    color: #433E37;
+}
+.banner p{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.5em;
+    color: #433E37;
+    padding-bottom: 15px;
+}
+.banner a{
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 500px;
+    text-decoration: none;
+    text-align: left;
+}
+.banner #NextPage{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #7e7864; 
+    color: #e7ddce;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #635C51;
+    color: white;
+    text-align: left;
+}
+.bottom p{
+    font-family: 'Hind Madurai', sans-serif;
+    color: #908a74;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-bottom: -57px;
+    font-size: 15px;
+}
+.bottom .bottomlinks a{ 
+    text-decoration: none;
+    float: right;
+}
+.bottom .bottomlinks img{
+    height: 5vh;
+    border-radius: 360px;
+    margin-right: 2.5px;
+    margin-bottom: 15px;
+}
+.bottom .bottomlinks .fb{
+    margin-right: 25px;
+}
+.gallery{
+    padding: 1.5vw;
+    width: 95vw;
+    height: 93vh;
+    margin-top: -30px;
+    text-align: center;
+    background-color: #221F1C;
+    
+}
+
+.gallery h1{
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #807366;
+    top: 10%;
+    bottom: 10%;
+    left: 5%;
+}
+.pics img{
+    opacity: .5;
+    transition: 0.2s;
+    margin: 20px;
+    width: 12%;
+    border: 10px outset#857b6b;
+    position: relative;
+    display: inline-block;
+}
+.pics img:hover{
+    opacity: 1;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+.gallery .pics{
+    margin-top: 8em;
+}
